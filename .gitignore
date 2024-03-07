@@ -9,3 +9,5 @@ logs.*
 *.bat
 *.code-workspace
 .idea
+*.zip
+LiteLoader
