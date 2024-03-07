@@ -1,0 +1,11 @@
+*.sum
+*.rar
+*.exe
+*.exe~
+*.log
+*.tmp
+log.*
+logs.*
+*.bat
+*.code-workspace
+.idea
