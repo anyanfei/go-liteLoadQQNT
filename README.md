@@ -15,11 +15,17 @@ https://github.com/LLOneBot/LLOneBot]
 
 
 ## 安装方法
-1、非常重要的：完全关闭QQ，不要留进程
+只测试了Windows的，linux和mac的最新sh脚本请移步https://github.com/Mzdyl/LiteLoaderQQNT_Install
 
-2、Windows右击使用管理员运行 exe  即可
+现在开始：
 
-3、完成后按回车就可以完成进程，就可以打开QQ，找到设置
+1、在release中下载好了liteLoadQQNT.exe 
+
+2、非常重要的：完全关闭QQ，不要留进程
+
+3、Windows右击使用管理员运行 exe  即可
+
+4、完成后按回车就可以完成进程，就可以打开QQ，找到设置
 
 ![20240308153117.png](20240308153117.png)
 
