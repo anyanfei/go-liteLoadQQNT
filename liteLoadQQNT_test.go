@@ -20,8 +20,9 @@ func TestGetQQPathInfo(t *testing.T) {
 }
 
 func TestIsFileExists(t *testing.T) {
-	fmt.Println(isFileExists(filepath.Join(`d:\Program Files\Tencent\QQNT`, "dbghelp.dll")))
-	fmt.Println(isFileExists(`d:\Program Files\Tencent\QQNT`))
+	_, qqNTPath := getQQExePath()
+	fmt.Println(isFileExists(filepath.Join(qqNTPath, "dbghelp.dll")))
+	fmt.Println(isFileExists(qqNTPath))
 }
 
 func TestGetFileMd5(t *testing.T) {
@@ -46,4 +47,20 @@ func getFileMD5(filePath string) (string, error) {
 
 func TestDownLoadAndInstallLiteLoader(t *testing.T) {
 	downLoadAndInstallLiteLoader(`d:\Program Files\Tencent\QQNT`)
+}
+
+func TestPrepareForInstallation(t *testing.T) {
+	prepareForInstallation(`d:\Program Files\Tencent\QQNT\QQ.exe`, `d:\Program Files\Tencent\QQNT`)
+}
+
+func TestCopyOldFiles(t *testing.T) {
+	copyOldFiles(`d:\Program Files\Tencent\QQNT`)
+}
+
+func TestPatchIndexJS(t *testing.T) {
+	patchIndexJS(`d:\Program Files\Tencent\QQNT`)
+}
+
+func TestDownLoadAndInstallLLOneBot(t *testing.T) {
+	downLoadAndInstallLLOneBot(`d:\Program Files\Tencent\QQNT`)
 }
