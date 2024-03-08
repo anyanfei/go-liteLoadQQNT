@@ -5,7 +5,7 @@
 
 https://github.com/Mzdyl/LiteLoaderQQNT_Install
 和
-https://github.com/LLOneBot/LLOneBot]
+https://github.com/LLOneBot/LLOneBot
 
 两家大佬的作品，才能让我们golang小股力量发亮发光。
 
