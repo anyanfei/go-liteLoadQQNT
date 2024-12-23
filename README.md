@@ -1,6 +1,8 @@
 # go-LiteLoaderQQNT
 针对 [LiteLoaderQQNT](https://liteloaderqqnt.github.io) 的安装脚本
 
+暂时不维护了，也没人来维护，直接跳转：https://github.com/super1207/install_llob/releases
+
 ## 首先感谢
 
 https://github.com/Mzdyl/LiteLoaderQQNT_Install
